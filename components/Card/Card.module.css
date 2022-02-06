@@ -1,0 +1,10 @@
+.card {
+  @apply rounded-md overflow-hidden shadow-md cursor-pointer;
+}
+.image {
+  position: relative;
+  height: 200px;
+}
+.title {
+  @apply px-2 py-4 text-lg capitalize;
+}
