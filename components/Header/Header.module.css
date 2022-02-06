@@ -10,6 +10,7 @@
   height: 600px;
   background-repeat: repeat-x;
   background-position: center center;
+  @apply h-[300px] md:h-[400px] lg:h-[600px];
 }
 .img::before {
   content: '';
@@ -28,4 +29,6 @@
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
+  max-height: fit-content;
+  @apply bottom-[20rem] lg:right-[15%] lg:bottom-[1.25rem] lg:left-[15%];
 }

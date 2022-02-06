@@ -4,8 +4,7 @@ import cn from 'classnames';
 import s from './Header.module.css';
 import { Carousel, CarouselItem } from 'react-bootstrap';
 import { BsWhatsapp } from 'react-icons/bs';
-import Image from 'next/image';
-import img1 from 'components/images/hero(1).jpeg';
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Header = () => {
